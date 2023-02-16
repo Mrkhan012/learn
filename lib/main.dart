@@ -11,10 +11,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      color: Colors.amberAccent,
       home: Material(
         child: Center(
-          child: Text("welcome to our family"),
+          child: Text("Welcome to 30 my lite word invert"),
         ),
       ),
     );
