@@ -1,23 +1,19 @@
 import 'package:flutter/material.dart';
 
-class HomePage extends StatelessWidget {
-  final int days = 30;
-  final String name = "code";
+class Homepage extends StatelessWidget {
+  const Homepage({super.key});
 
-  const HomePage({super.key});
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.deepPurple,
         title: const Text("Catalog App"),
       ),
       body: const Center(
-        child: Text(
-          "Welcome to Our Apk",
-          style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
-        ),
+        child: Text("Welcome To My First App ",
+            style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
       ),
-      drawer: const Drawer(),
     );
   }
 }
