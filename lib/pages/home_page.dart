@@ -7,12 +7,14 @@ class Homepage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.deepOrangeAccent,
         title: const Text("Catalog App"),
       ),
       body: const Center(
-        child: Text("Welcome To My First App ",
-            style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
+        child: Text(
+          "Welcome To My First App ",
+          style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
+        ),
       ),
       drawer: const Drawer(),
     );

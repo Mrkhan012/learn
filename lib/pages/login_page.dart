@@ -39,21 +39,21 @@ class _LoginPageState extends State<LoginPage> {
             child: Column(
               children: [
                 Image.asset(
-                  "assets/images/login_png.png",
+                  "assets/images/login_ak.png",
                   fit: BoxFit.cover,
                 ),
                 const SizedBox(
-                  height: 20.0,
+                  height: 30.0,
                 ),
                 Text(
                   "Welcome $name",
                   style: const TextStyle(
-                    fontSize: 28,
-                    fontWeight: FontWeight.bold,
-                  ),
+                      fontSize: 28,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.blue),
                 ),
                 const SizedBox(
-                  height: 20.0,
+                  height: 30.0,
                 ),
                 Padding(
                   padding: const EdgeInsets.symmetric(
@@ -97,7 +97,7 @@ class _LoginPageState extends State<LoginPage> {
                         height: 40.0,
                       ),
                       Material(
-                        color: Colors.deepPurple,
+                        color: Colors.orange,
                         borderRadius:
                             BorderRadius.circular(changeButton ? 50 : 8),
                         child: InkWell(
