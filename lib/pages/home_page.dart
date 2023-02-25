@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../widgets/drawer.dart';
 
+// day 11 we learned about context, constraints
 class Homepage extends StatelessWidget {
   const Homepage({super.key});
 
@@ -19,7 +20,7 @@ class Homepage extends StatelessWidget {
       ),
       body: const Center(
         child: Text(
-          "Welcome To My First Catalog App ",
+          "Welcome to our app to  something in life ",
           style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
         ),
       ),
